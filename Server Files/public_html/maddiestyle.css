@@ -5,12 +5,12 @@ html, body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .container {
   margin: 0 auto;
-  padding-inline:1.5vw;
+  padding-inline: 1.5vw;
 }
 
 .header h1 {
@@ -42,8 +42,11 @@ body {
   margin:10px;
   text-decoration: none; 
   transition: background .5s; 
-  border-radius:4px;
-  font-size:large;
+  border-radius:1vw;
+  font-stretch:extra-expanded;
+  font-size: 1.6vw;
+  font-weight:400;
+  letter-spacing: .4vw;
 }
 
 #navTop {
@@ -100,8 +103,8 @@ body {
 #description{
   color:rgb(23, 0, 117);
   font-size:1.5vw;
-  font-weight: 1400;
-  letter-spacing: .5vw;
+  font-weight: 700;
+  letter-spacing: .4vw;
 
 }
 #featured {
@@ -177,12 +180,18 @@ body {
 }
 
 .jumbotron h2 {
-  color: #fff;
+  text-transform:uppercase;
+  letter-spacing:1vw;
+  font-size:8vw;
+  font-weight:500;
+  color: rgba(228, 70, 90, 1);
+  text-shadow: 1px 2px rgb(255, 254, 254);
   text-align: right; 
 }
 
 .jumbotron p {
   color: #fff; 
+  
   text-align: right; 
 }
 
@@ -191,17 +200,26 @@ body {
   float: right; 
 }
 
+#followDescription {
+  font-weight:900;
+  text-shadow: 2px 1px black;
+  letter-spacing:.5vw;
+}
+
 .footer { 
-  
-  background: rgba(228, 70, 50, 0.725);
+  display:flex;
+  background: rgba(228, 70, 90, 0.725);
   height: 80px; 
   padding-bottom: 50px;
+  align-items:center;
 }
 
 .footer p { 
   color: #fff;
   font-size: 14px;  
+  font-weight:300;
   height: 80px; 
+  letter-spacing:1vw;
   line-height: 80px;
   margin: 0;  
 
@@ -212,8 +230,6 @@ body {
     font-size: 50px;
     line-height: 64px;
   }
-
-
 
   .main img {
     width: 100%;
